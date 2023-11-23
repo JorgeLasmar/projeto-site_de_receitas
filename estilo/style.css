@@ -131,6 +131,8 @@ section#img03{
     background-position: right center;
 }
 
+
+
 h2{
     color: white;
     text-align: center;
@@ -150,6 +152,23 @@ iframe{
     display: block;
     margin: auto;
     padding-bottom: 50px;
+}
+
+
+div.video{
+    background-color: var(--cor_2);
+    margin: 0px 0px 30px -60px;
+    padding: 20px;
+    padding-bottom: 57.3%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 footer{
